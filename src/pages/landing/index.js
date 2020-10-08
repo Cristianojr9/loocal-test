@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Header from '../../components/header';
+import SectionExamples from '../../components/sectionExamples';
 
 import {
   Container,
@@ -102,6 +104,7 @@ function Landing() {
           </ul>
         </div>
       </SectionAdvantage>
+      <SectionExamples />
     </Container>
   );
 }
