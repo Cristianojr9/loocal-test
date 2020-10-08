@@ -1,5 +1,5 @@
 <h1 align="center">
-Evox News
+Loocal
 </h1> 
 
 <p align="center">
