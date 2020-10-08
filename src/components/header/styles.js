@@ -42,7 +42,6 @@ export const NavLinks = styled.div`
     display: block;
     color: #111;
     padding: 3px 0;
-    letter-spacing: 2px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
