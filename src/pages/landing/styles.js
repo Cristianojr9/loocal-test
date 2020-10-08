@@ -60,12 +60,13 @@ export const Content = styled.div`
 export const CenterInfo = styled.div`
   width: 65%;
   height: 170px;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 120px;
   margin-left: 17%;
+  position: absolute;
 
   box-shadow: 0px 10px 55px #1111;
 
@@ -111,4 +112,53 @@ export const CenterInfo = styled.div`
     }
   }
 
+`;
+
+export const SectionAdvantage = styled.div`
+  margin-top: 25%;
+
+  display: flex;
+  place-content: center;
+
+  img {
+    margin-right: 170px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+  }
+
+  p {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 10px;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 30px;
+      color: #4F5665;
+      padding: 0 0 15px;
+
+      img {
+        margin-right: 12px;
+      }
+    }
+  }
 `;
