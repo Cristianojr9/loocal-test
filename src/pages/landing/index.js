@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../../components/header';
 import SectionExamples from '../../components/sectionExamples';
+import Footer from '../../components/footer';
 
 import {
   Container,
@@ -105,6 +106,21 @@ function Landing() {
         </div>
       </SectionAdvantage>
       <SectionExamples />
+      <CenterInfo>
+        <section>
+          <h1>
+            Faça parte da
+          <br />revolução 🎉
+        </h1>
+          <span>
+            Traga seu comércio para a Loocal
+        </span>
+        </section>
+        <button>
+          Quero fazer parte
+        </button>
+      </CenterInfo>
+      <Footer />
     </Container>
   );
 }

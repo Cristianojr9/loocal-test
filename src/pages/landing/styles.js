@@ -112,6 +112,24 @@ export const CenterInfo = styled.div`
     }
   }
 
+  button {
+    width: 373px;
+    height: 60px;
+    background: #00A536;
+    border-radius: 10px;
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0px 10px 55px rgba(0, 165, 54, 0.35);
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+
+    &:hover {
+      background: ${shade(0.2, '#00A536')};
+    }
+  }
+
 `;
 
 export const SectionAdvantage = styled.div`
@@ -121,7 +139,11 @@ export const SectionAdvantage = styled.div`
   place-content: center;
 
   img {
-    margin-right: 170px;
+    margin-right: 5%;
+  }
+
+  div {
+    margin-left: 5%;
   }
 
   h1 {

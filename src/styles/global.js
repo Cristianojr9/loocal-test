@@ -10,6 +10,7 @@ export default createGlobalStyle`
   body {
     background: #ffffff;
     -webkit-font-smoothing: antialiased;
+    scrollbar-arrow-color: #00A536;
   }
   body, input, button {
     font-family: 'Rubik', sans-serif;
